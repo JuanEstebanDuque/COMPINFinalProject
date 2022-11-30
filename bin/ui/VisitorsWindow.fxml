@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="97.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anunciar visitante">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartamento">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameVisitorTF" layoutX="84.0" layoutY="71.0" prefHeight="25.0" prefWidth="262.0" promptText="Ingrese texto aquí" />
+      <ComboBox fx:id="aptoCMB" layoutX="119.0" layoutY="116.0" prefHeight="25.0" prefWidth="226.0" promptText="Seleccione una opción" />
+      <Button fx:id="announceBTN" layoutX="141.0" layoutY="160.0" mnemonicParsing="false" onAction="#announce" style="-fx-background-color: #1169ed;" text="Anunciar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
